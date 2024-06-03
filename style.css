@@ -5,6 +5,12 @@
        h1 {
            color: white;
            font-family: "press start 2P", "consolas", "sans-serif";
+           border-top-style: dashed;
+           border-bottom-style: dashed;
+           border-left-style: dashed;
+           border-right-style: dashed;
+           border-color: gold;
+           padding: 10px;
        }
 
        p {
@@ -19,6 +25,14 @@
        }
        #p1{
             color:tomato
+       }
+       #p2{
+            border-style: solid;
+            border-width: 5px;
+            border-color: silver;
+            border-radius: 5px;
+            padding: 5px;
+
        }
        
        .odd{
