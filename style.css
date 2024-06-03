@@ -4,13 +4,22 @@
 
        h1 {
            color: white;
+           font-family: "press start 2P", "consolas", "sans-serif";
        }
 
        p {
            background-color: grey;
            color: white;
+           font-family: "consolas", "sans-serif";
+           font-style: italic;
+           font-size: x-large;
+           text-decoration: underline;
+           font-size: 24px;
+
        }
-       #p1{}
+       #p1{
+            color:tomato
+       }
        
        .odd{
             color:red
