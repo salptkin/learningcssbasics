@@ -1,5 +1,9 @@
        body {
-           background-color: black;
+            background-image: url(diablo.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
        }
 
        h1 {
@@ -11,20 +15,24 @@
            border-right-style: dashed;
            border-color: gold;
            padding: 10px;
+           background: linear-gradient(to right, rgb(0, 0, 0), rgb(185, 185, 185));
+           background-repeat: no-repeat;
+           background-attachment: fixed;
        }
 
        p {
-           background-color: grey;
-           color: white;
            font-family: "consolas", "sans-serif";
            font-style: italic;
            font-size: x-large;
            text-decoration: underline;
            font-size: 24px;
+           background: linear-gradient(to left, rgb(0, 0, 0), rgb(185, 185, 185));
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+         }
 
-       }
        #p1{
-            color:tomato
+            color: white
        }
        #p2{
             border-style: solid;
@@ -32,12 +40,36 @@
             border-color: silver;
             border-radius: 5px;
             padding: 5px;
-
        }
-       
+    
        .odd{
-            color:red
+            color: beige
        }
        .even{
-            color:yellowgreen
+            color: bisque
+       }
+
+       #box1{
+            border: 5px solid;
+            width: 250px;
+            height: 250px;
+            font-size: 22px;
+            background: linear-gradient(to left, rgb(0, 0, 0), rgb(185, 185, 185));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding: 20px;
+            margin: 50px;
+
+       }
+
+       #box2{
+            border: 5px solid;
+            width: 250px;
+            height: 250px;
+            font-size: 22px;
+            background: linear-gradient(to left, rgb(0, 0, 0), rgb(185, 185, 185));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding: 20px;
+            margin: 50px;
        }
